@@ -2,27 +2,24 @@
     width: 150px;
     height: 30px;
     border-radius: 5px;
-    background-color: $main-color;
-    border: none;
-    color: #ffffff;
+    background-color: $main-color; /* цвет мы уже задали как отдельную переменную в variable */
+    border: none; /* убираем границы у кнопки */
     font-size: 12px;
     font-weight: 500;
-    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;/*  Ставим текст в верхнем регистре */
     &_main {
         margin-top: 67px;
         width: 300px;
         height: 50px;
         font-size: 16px;
+        text-align: center;
+        color: #fff;
     }
-    &_submit {
-        width: 100%;
+    &_submit {/* изменяем нашу кнопку из формы */
+        width: 100%; /* будет подстраиваться под форму  */
         height: 55px;
-        color: #ffffff;
         font-size: 16px;
-    }
-    &_mini {
-        width: 131px;
-        height: 40px;
-        font-size: 14px;
     }
 }
