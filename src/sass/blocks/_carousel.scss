@@ -1,8 +1,8 @@
 .carousel {
-    padding: 81px 0;
+    padding: 81px 0; /* указываем отступы у слайдера сверху и снизу */
     &__inner {
         position: relative;
-        width: 750px;
+        width: 750px; /* Ширина нашей карусели */
         margin: 0 auto;
     }
     .slick-prev, .slick-next  {
